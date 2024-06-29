@@ -1,4 +1,4 @@
-# Email Spam Detection
+# Email Spam Detection Using Machine Learning
 
 ## Description
 This project aims to build a machine learning model that can detect whether an email is spam or not. It utilizes natural language processing (NLP) techniques and a Multinomial Naive Bayes classifier to achieve this. The model is trained on a dataset of labeled emails and deployed as an API using Flask.
