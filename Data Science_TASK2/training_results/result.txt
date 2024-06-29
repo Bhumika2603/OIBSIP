@@ -1,0 +1,11 @@
+Accuracy : 0.867504835589942 
+ConfusionMatrix : [[889, 0], [137, 8]] 
+ClassificationReport :               precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       889
+        spam       1.00      0.06      0.10       145
+
+    accuracy                           0.87      1034
+   macro avg       0.93      0.53      0.52      1034
+weighted avg       0.89      0.87      0.81      1034
+ 
