@@ -1,6 +1,6 @@
 
 import pickle
-import Train
+import main
 
 #LOADING THE TRAINED MODEL AND VECTORIZER
 
@@ -16,7 +16,7 @@ with open('vectorizer.pkl', 'rb') as vec_file:
 def predict_spam(text):
 
     # Preprocess the text
-    text = Train.preprocess_text(text)
+    text = main.preprocess_text(text)
 
     # Vectorize the text
     text_vec = loaded_vectorizer.transform([text])
