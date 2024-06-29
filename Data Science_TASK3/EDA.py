@@ -6,7 +6,7 @@ import os
 eda_dir = 'EDA_results/'
 
 # Load the dataset
-data_path =  r"C:\Users\hp\Downloads\car_dataset\car data.csv"
+data_path =  "car data.csv"
 df = pd.read_csv(data_path)
 
 # Number of rows and columns in the dataset
