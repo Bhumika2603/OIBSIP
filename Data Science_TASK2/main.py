@@ -38,7 +38,7 @@ def preprocess_text(text):
 if __name__ == "__main__":
 
     #LOADING THE DATASET
-    dataset_path = r"C:\Users\hp\Downloads\email_spam_dataset\spam.csv"
+    dataset_path = "spam.csv"
     df = pd.read_csv(dataset_path, encoding='latin-1')
 
     #PREPROCESSING
